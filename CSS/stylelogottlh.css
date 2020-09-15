@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+body{ 
+    background: #dcdcdc; 
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+ 
+ 
+#head{
+    height: 128px;
+    background-image: linear-gradient(0, #337afe,#162269);
+    color:#fff;
+}
+#head a{
+    width: 500px;
+}
+#head a img{
+    height: 128px;
+}
+/*CSS NAV*/
+nav {
+    margin-top: 3px; 
+    background-image: linear-gradient(rgb(0, 2, 95), blue);
+}
+ul.menutop1{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    width: 950px; 
+}
+ul.menutop1 > li{
+    min-width: 200px;
+    border-right: 2px groove white;
+    text-align: center;
+}
+ul.menutop1 > li:last-child{
+    border-right: none;
+}
+ul.menutop1 > li > a{
+   color: white;
+   display: block;/*quan trọng nhất*/
+   padding: 15px 10px;/*quan trọng nhất*/
+   text-decoration: none;
+}
+ul.menutop1 > li > a:hover {
+    background-color: brown;
+    text-decoration: underline;
+    color: red;
+    animation: myfirst 2s;
+    -webkit-animation: myfirst 2s;
+} 
+@keyframes myfirst{
+    from{background:rgb(214, 72, 16);}
+    to{background:  rgb(214, 196, 29);}
+}
+/*CSS phần section logo*/
+ .chung > h1{
+    text-align: center;
+    color:red;
+    text-shadow:  3px 2px green;
+    font-size: xxx-large;
+}
+h3.modau{
+   text-align: center;
+   text-shadow:  3px 2px rebeccapurple;
+    color: white;
+    background-color: rgb(24, 39, 179);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    width: 25%;
+    margin-bottom: 0px;
+}
+div.line {
+    width: 100%;
+    height:5px;
+    background-color: darkblue;
+}
+/*Css section logo*/
+.allproduct{ 
+    display:flex;
+     flex-wrap: wrap; /*hết xuống dòng */
+}
+div.product{
+    width:30%;
+    padding:10px;
+   text-align: center;
+   border-radius: 15px;
+   background-color: lightcyan;
+   border: 2px groove blue;
+   margin:1%;
+}
+.product .img{
+     width:89%; 
+     display:block;
+     margin: 0 auto;
+     text-align: center;
+     transition:transform ease 2s;
+}
+.product .img:hover{
+    transform:scale(-1,-1);;
+}
+/*CSS Ý NGHĨA BIỂU TƯỢNG*/
+ul.symbols {
+    margin: 0;
+    padding: 0;
+    
+}
+.symbols > li{
+    background-color: lawngreen;
+    padding: 15px 5px;
+    width: 260px;
+    border: 2px groove white;
+    border-radius: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+.symbols > li > a{
+     text-decoration: none;
+}
+.symbols:hover .symbol{
+    display: block;
+}
+.symbol{
+    display: none;
+    position: absolute;
+    background: linear-gradient(rgb(45, 238, 45), yellow, transparent);
+    border: 2px groove rgb(8, 138, 99);
+    border-radius: 12px;
+    width:92%;
+    padding:3px; 
+}
+.symbol > li{
+    list-style-type: none;
+}
+.symbol > li > a{
+    text-decoration: none;
+}
+/*css thông tin liên hệ*/
+
+.contact{
+    width: 100%;
+    display: flex;
+    line-height:28px;
+   
+}
+
+.contact .LI{
+   margin: 0;
+   padding: 0px 47px;
+}
+.contact > .LI >h4{
+    text-align: center;
+    color:green;
+}
+.icon{
+    width: 26px;
+    float: left;
+     
+ }
+.Bang{
+    list-style-type:none;
+    font-weight:bolder ;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+.Bang >li > a{
+    text-decoration: none;
+    color:rgb(16, 214, 155)
+}
+.Bang >li > a:hover{
+    color:red;
+    text-decoration-line: underline;
+}
+div.LI > ul.icons > li{
+    padding: 10px 5px;
+}
+ 
+/*Css phần form*/
+form.bang{
+    background-color: lightblue;
+    padding-top:10px;
+    text-align:center;
+}
+form.bang h4{
+    text-align:center;
+    color:green;
+}
+table.all{
+    width:50%;
+    margin:0 auto;
+}
+table.all td.cach{
+    padding:3px;
+}
+input[type=text]
+{
+    width: 90%;
+    padding:10px;
+}
+textarea{
+    width:94.5%;
+    margin:0 15px;
+    height: 50px;
+    padding:10px;
+}
+ 
+/*CSS SUBMIT*/
+#gui{
+     padding: 7px;
+     width: 16%;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     z-index: 999;
+     background: linear-gradient(to right, #fc00ff, #00dbde);
+ }
+.gui:hover{
+    background: linear-gradient(to right, #fc466b,#3f5efb);
+}
+/* CSS Footer*/
+footer{
+    display: inline-block;
+}
+ 
+.foter >b {
+    background-color: rgba(6, 62, 136, 0.4);
+    color:red;
+    text-align:center;
+    padding: 8px 7px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+footer > hr{
+    color:gold;
+}
+
+ 
+/* go to top */
+div.gototop {
+    
+   
+    z-index: 999;
+    position:fixed;
+    border: 2px solid black;
+    border-radius:33px;
+    background:linear-gradient(lightcyan, brown);
+    text-align: center;
+    right: 20px;
+    bottom: 116px;
+    
+}
+
+div.gototop a {
+    display:block;
+    padding: 20px 15px;
+    text-decoration:none;
+}
+div.gototop a:hover{
+    background:#d3dd18;
+    border-radius:33px;
+}
+/* MAP*/
+ ol.mapp > li > p {
+    color:red; 
+    font-weight: bold; 
+    font-size: large;
+     
+ }
+ /* STAR */
+ div.stars {
+    width: 270px;
+    display: inline-block;
+  }
+  input.star { 
+      display: none; 
+    }
+  
+  label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+  }
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+  input.star-1:checked ~ label.star:before { 
+      color: #F62;
+     } 
+  label.star:hover {
+       transform: rotate(-15deg) scale(1.3);
+     }
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+/*CSS media queries*/ 
+/* CSS MENU MOBILE TABLET */
+  
+.topnav {
+    background-image: linear-gradient(0,rgb(0, 2, 95), blue);
+    overflow: hidden;
+  
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ 
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav .icon {
+    display: none;
+}
+.topnav{
+    display: none;
+}
+ 
+@media screen and (max-width: 600px) {
+    ul.menutop1{
+        display: none;
+    }
+    .topnav{
+        display: block;
+        width: 1036px;
+    }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+@media screen and (max-width:900px)
+{
+    body {
+        background-color:lightskyblue;
+    }
+    header, nav {
+        width: 1036px;
+    }
+    div.product{
+        width:48%;
+    }
+    form.bang {
+        width: 1036px;
+    }
+    .chung  h1{
+        width:966px;
+    }
+    h3.modau {
+        width:50%;
+    }
+ 
+}
+@media screen and (max-width:500px)
+{
+    body {
+        background-color:rgb(221, 219, 94);
+    }
+    header, .topnav {
+        width: 1041px;
+    }
+    div.product{
+        width: 1026px;
+        margin: 0 auto;
+    }
+    .chung  h1{
+        width:966px;
+    }
+    h3.modau {
+        width:100%;
+    }
+    .product:last-child{
+        width: 1026px;
+        margin: 0 auto;
+    }
+    div.allproduct{
+       
+        padding: 10px;
+    }
+    form.bang {
+        width: 1036px;
+    }
+    .product .img{
+        /* canh giua*/
+        margin: 0 auto;
+        width: 1015px;
+    }.contact{
+       width: 1025px;
+    }
+    .foter >b {
+        background-color: rgba(6, 62, 136, 0.4);
+        color:red;
+        text-align:center;
+        position: fixed;
+        padding:8px 7px;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    
+}
+
+

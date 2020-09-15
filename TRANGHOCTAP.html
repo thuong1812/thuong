@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>OU MINI</title>
+        <link href="img/logo9.png" rel="shortcut icon"/>
+        <meta name="refresh" content="1800"/>
+        <link rel="stylesheet" href="CSS/styletranghoctap.css">
+        <!--font-->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--carosel-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!--jquery-->
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+        <!--zoom-->
+        <script src='https://cdn.rawgit.com/jackmoore/zoom/master/jquery.zoom.min.js'></script>
+         <!--AOS srcoll Animate CSS-->
+         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <script src="javascript/TRANGPHUCVUSV.js"></script>
+
+        
+    </head>
+    <body>
+            <div class="gototop" id="gototop">
+                <a href="javascript:;" onclick="goToTop()"><img src="img/gototop.png" alt="top" /></a>
+            </div>
+            <section class="social">
+              <ul>
+                  <li><a href="javascript:;"><a href="https://www.facebook.com/aoxanhou/" target="_blank"><span class="fa fa-facebook-square"></span></a></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCW60en-uPCwkTfG4SNGLcFA" target="_blank"><span class="fa fa-youtube-square"></span></a></li>
+              </ul>
+          </section>
+          <header id="head"><!--PHẦN BANNER-->
+            <a href="http://ou.edu.vn" target="blank">
+                <img src="img/ou.png" alt="OU" title="Logo"/> 
+           </a>
+            
+        </header><!--KẾT THúc BANNER--> 
+        <nav ><!--PHẦN MENUtop-->
+            <ul  class="menutop1">
+                <li><a href="index.html"><i class="fa fa-home">TRANG CHỦ</i></a></li>
+                <li><a href="TRANGPHUCVUSV.html">TRANG PHỤC VỤ SINH VIÊN</a></li>
+                <li><a href="TRANGHOCTAP.html">TRANG HỌC TẬP</a></li>
+                <li><a href="LogovaTTLH.html">LOGO & THÔNG TIN LIÊN HỆ</a></li>
+            </ul>
+         </nav><!--KẾT THÚC MENUtop-->
+           <!--menu mobile tablet-->
+           <div class="topnav" id="myTopnav" >
+            <a href="index.html">TRANG CHỦ</a>
+            <a href="TRANGPHUCVUSV.html">TRANG PHỤC VỤ SINH VIÊN</a>
+            <a href="TRANGHOCTAP.html">TRANG HỌC TẬP</a>
+            <a href="LogovaTTLH.html">LOGO & THÔNG TIN LIÊN HỆ</a>
+            <a href="javascript:;" class="icon" onclick="myFunction()">☰</a>
+          </div>
+              
+          <!-- end menu mobile tablet-->
+         <section class="share">
+              <ul class="sharing" id="myDiv">
+                  <li><a href="#LMS"  onclick="go(this)">LMS</a></li>
+                  <li><a href="#MYELT"  onclick="go(this)">MyELT</a></li>
+                  <li><a href="#THUVIEN"  onclick="go(this)">THƯ VIỆN</a></li>
+                  <li><a href="#OUAPP" onclick="go(this)">APP OU</a></li> 
+                  <li><a href="#cntt" onclick="go(this)">Cổng học tập CNTT</a></li>   
+                  <li><a href="#EG"  onclick="go(this)">ENGLISH</a></li>
+                  <li><a href="#LTTB"  onclick="go(this)">LẬP TRÌNH THIẾT BỊ DĐ</a></li>
+                  <li><a href="#CY"  onclick="go(this)">OU-IT COMMUNITY</a></li>
+            </ul>
+          </section>
+          
+         
+           <!-- <h1>MOT SO TRANG GIUP CHO VIEC HOC TAP CUA SINH VIEN</h1>-->
+           <h1>MỘT SỐ TRANG HỌC TẬP DÀNH CHO SINH VIÊN</h1>
+            
+            <section  id="LMS" class="khung">
+              <div data-aos="fade-up" class="tieude">
+                Learning Management System
+              </div>
+              <div data-aos="zoom-in" class="line"></div>
+               <div data-aos="fade-up">
+                <p class="vanban"> <a href="https://lms.ou.edu.vn/" target="_blank" >Hệ thống LMS-OU</a> là hệ thống
+                   quản lý học trực tuyến. Về cơ bản, đây là phần mềm cho phép triển khai, quản lý và vận hành hệ thống 
+                   tài liệu, dữ liệu đào tạo cho các chương trình giáo dục trực tuyến E-learning. Sử dụng hỗ trợ công tác
+                    giảng dạy và học tập của sinh viên, học viên tại trường Đại học Mở TP.HCM. 
+                </p> 
+               </div>  
+          </section>
+          <section class="banner">
+                           
+              <div data-aos="zoom-in" id="demo" class="carousel slide" data-ride="carousel">
+    
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner"   >
+                  <div class="carousel-item active"  class='zoom' id='zoom1'>
+                    <img src="img/lms(1).png" alt="sis" >
+                  </div>
+                  <div class="carousel-item"   class='zoom' id='zoom2'>
+                    <img src="img/lms(2).png"  alt="sis" >
+                  </div>
+                  <div class="carousel-item"  class='zoom' id='zoom3'>
+                    <img src="img/lms(3).png"   alt="sis"  >
+                  </div>
+                   
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              
+              </div>
+            </section>
+          <section id="MYELT" class="khung">
+            <div data-aos="fade-up" class="tieude">
+                MyELT
+            </div>
+            <div data-aos="zoom-in" class="line"></div>
+             <div data-aos="fade-up">
+              <p class="vanban"> Trang <a href="https://myelt.heinle.com/ilrn/authentication/signIn.do?inst=MYELT" target="_blank">Myelt </a>Để đăng ký một khóa học MyELT được
+                 giảng dạy bởi một giảng viên, bạn cần một mã Course Key và một mã Content Access Code. Giáo viên của bạn sẽ cung cấp cho bạn
+                 mã Course Key. Bạn có thể tìm thấy các mã Content Access Code trên trang bìa trong của cuốn sách hoặc thẻ MyELT.</p> 
+             </div>  
+             <div data-aos="zoom-in" class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CqnxGMFZPM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+        </section>
+        
+        <section id="THUVIEN" class="khung">
+            <div data-aos="fade-up" class="tieude">
+               THƯ VIỆN
+            </div>
+            <div data-aos="zoom-in" class="line"></div>
+             <div data-aos="fade-up">
+              <p class="vanban">Trang <a href="http://dkmh.ou.edu.vn/" target="_blank">Thư viện</a> là nơi thông tin được tổ chức, nơi
+                 dễ dàng tìm thấy thông tin qúy vị cần hoặc muốn.Thư viện chỉ có giá trị khi nó có thông tin và có người biến thông tin trở nên
+                hữu ích. Tại đây bạn có thể tra cứu tài liệu để học tập. Tài liệu mới được cập nhật hàng tháng. Thư viện được mở rộng gồm 1 phòng
+                đọc tại Lầu 5 và 1 phòng đọc tại Lầu 6 với diện tích là 500m2, 200 chỗ ngồi. Ngoài Thư viện tại cơ sở 97 Võ Văn Tần, Thư viện còn 
+                có 2 chi nhánh là tại cơ sở số 442 Đào Duy Anh và tại Cơ sở 3 của trường 68 Lê Thị Trung, Thủ Dầu Một, Bình Dương. Thư viện tổ chức 
+                theo lối kho mở và sử dụng khung Phân loại Thập phân Dewey (DDC) để phân loại và xếp giá tài liệu. Mô tả tài liệu theo tiêu chuẩn 
+                ISBD và AACR2; sử dụng Sear List of Subject Heading và đề mục của LC để biên mục tài liệu. Thư viện trường là thành viên của Liên Chi
+                 Hội Thư viện các trường ĐH Phía Nam[16]. Thư viện tổ chức theo dạng mở hơn 500 chỗ, có mạng máy tính giúp sinh viên tra cứu tài liệu.
+                Trong thư viện hiện có 40.000 bản sách giáo trình các ngành đào tạo, sách tham khảo, tạp chí và các luận văn đại học và cao học xuất sắc…
+                Hệ thống thư viện trường với các sách tham khảo chuyên ngành và đại cương phong phú. Hệ thống máy vi tính nối mạng internet giúp sinh viên
+                 có thể tra cứu tài liệu, tìm kiếm thông tin. Ngoài ra, Khoa Công nghệ Sinh Học còn có một phòng thư viện riêng tại cơ sở Bình Dương, phục
+                 vụ các sách chuyên khảo[16].
+              </p> 
+             </div>  
+        </section>
+        <section class="banner">
+                         
+            <div data-aos="zoom-in" id="demo" class="carousel slide" data-ride="carousel">
+  
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active"   class='zoom' id='zoom1'>
+                  <img src="img/thuvien(1).png" alt="tv">
+                </div>
+                <div class="carousel-item"   class='zoom' id='zoom2'>
+                  <img src="img/thuvien(2).png" alt="tv">
+                </div>
+                <div class="carousel-item"   class='zoom' id='zoom3'>
+                  <img src="img/thuvien(3).png" alt="tv">
+                </div>
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            
+            </div>
+          </section>
+           
+          <section id="OUAPP" class="khung">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="tieude">
+                APP OU
+            </div>
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="line"></div>
+             <div  data-aos="fade-up">
+              <p class="vanban"><a href="https://apps.apple.com/vn/app/ouvns/id1479161595" target="_blank">APP OU</a> là ứng dụng được làm trên điện thoại 
+                giúp tất cả sinh viên và nhân viên có thể xem dễ dàng.Tại đây sinh viên có thể xem Lịch thi + Điểm thi + Lịch học nhanh chóng. Trong đây 
+                còn có mục tư vần tuyển sinh giúp cho một số bạn sinh viên mới.
+              </p> 
+             </div>  
+        </section>
+        <section class="banner">
+                         
+            <div data-aos="zoom-out-down" data-aos-anchor-placement="bottom-bottom"  id="demo" class="carousel slide" data-ride="carousel">
+  
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active"  class='zoom' id='zoom1'>
+                  <img src="img/appou(1).png" alt="app">
+                </div>
+                <div class="carousel-item"  class='zoom' id='zoom2'>
+                  <img src="img/appou(2).png" alt="app">
+                </div>
+                <div class="carousel-item"  class='zoom' id='zoom3'>
+                  <img src="img/appou(3).png" alt="app">
+                </div>
+                <div class="carousel-item"  class='zoom' id='zoom4'>
+                  <img src="img/ouapp(4).png" alt="app">
+                </div>
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            
+            </div>
+          </section>
+          
+               
+          <section id="cntt" class="khung">
+            <div data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom" class="tieude">
+               Cổng học tập CNTT
+            </div>
+            <div data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom" class="line"></div>
+             <div  data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
+              <p class="vanban"><a href="https://www.facebook.com/itougochoctap" target="_blank">Cổng học tập CNTT</a> là trang được anh chị lập ra nhằm mục đích
+                giải đáp thắc mắc cho sinh viên khoa khi gặp khó khăn trong quá trình giải. Tại đây bạn cũng có thể gửi câu hỏi và cũng có một số câu trắc nghiệm 
+                để các bạn cũng cố kiến thức trên lớp. Ngoài ra, còn đăng một số tin tức sự kiện của khoa. Thế nên, đừng ngần ngại khi bạn gặp trở ngại, bạn có thể 
+                truy cập vào Form hoặc truy cập vào forum để cùng thảo luận.
+              </p> 
+             </div>  
+        </section>
+        <section class="banner">
+                         
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"id="demo" class="carousel slide" data-ride="carousel">
+  
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active"  class='zoom' id='zoom1'>
+                  <img src="img/cntt(1).png" alt="app">
+                </div>
+                <div class="carousel-item"  class='zoom' id='zoom2'>
+                  <img src="img/CNTT(2).png" alt="app">
+                </div>
+                <div class="carousel-item"  class='zoom' id='zoom3'>
+                  <img src="img/cntt(3).png" alt="app">
+                </div>
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            
+            </div>
+          </section>
+          <!-- CLUB ENGLISH-->
+      <section  id="EG" class="khung">
+        <div data-aos="fade-up" class="tieude">
+          ENGLISH CLUB
+        </div>
+        <div data-aos="zoom-in" class="line"></div>
+         <div data-aos="fade-up">
+          <p class="vanban"> <a href="https://www.facebook.com/ouitenglishclub/?__tn__=K-R&eid=ARCDrSM78boTUJqFO1U5KFoRlghTqcwUQ70lWTQOJUxryHcdkhyxU-ke7TVcOxpUcuEegA_ZIOQcw1QP&fref=mentions&__xts__[0]=68.ARBgp9EyJlbFfK87eMAVL3pq0RHNjYO22wBCAZEKQOkvQ3Is3icUCwKG4dDGdA1ufAu-ciWJuNpwDM-EtIyARV5eJBMziR-fGVZqRFJBF19alp0zxPfXvPlAmjkKBoWOR9hqhKbLQjjbWx2XqkFqsujFawWOxsg41xGTvb_ihsMmxiNiTdRyS1Qu8OFxcGEu44t70xUVuLv2LQe09HrV9fF4YgiBbCrnDe0mZ6ZvOG08Ynzd0FwBkQ9e6XXlC1Y0nPJ1MkprMKw2zAi3j392m6Ab6G-Rlr00yyjpAvoUQRjtt2XcNKSv8lk2xnQuRaj5_wrYrHYu8B0JEP4hTQjKoH95pw" 
+            target="_blank" >OU-IT's English club</a> là một Club dành cho sinh viên khoa CNTT.
+             Ở đây, sinh viên đươc cung cấp kỹ năng kiến thức rất sinh viên. Câu lạc bộ không thể giúp 
+             các bạn tiếp nhận kiến thức quá xa vời, những kỹ năng chuyên môn quá lớn nhưng nó giúp các 
+             bạn hiểu được rằng là một sinh viên thì cần làm gì?,bắt đầu như thế nào, khắc phục điểm yếu về 
+             Tiếng Anh ra sao? Và quan trọng là nó giúp bạn trong học tập cũng như công việc sau này (>_o).
+         </div>  
+    </section>
+    <section class="banner">
+                     
+        <div data-aos="zoom-in" id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner"   >
+            <div class="carousel-item active"  class='zoom' id='zoom1'>
+              <img src="img/eg(1).png" alt="eg" >
+            </div>
+            <div class="carousel-item"   class='zoom' id='zoom2'>
+              <img src="img/eg(2).png"  alt="eg" >
+            </div>
+            <div class="carousel-item"  class='zoom' id='zoom3'>
+              <img src="img/eg(3).png"   alt="eg"  >
+            </div>
+             
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div>
+      </section>
+      <!-- LẬP TRÌNH THIẾT BỊ DI ĐỘNG  -->
+      <section  id="LTTB" class="khung">
+        <div data-aos="fade-up" class="tieude">
+          MOBILE PROGRAMMING CLUB
+        </div>
+        <div data-aos="zoom-in" class="line"></div>
+         <div data-aos="fade-left">
+          <p class="vanban"> <a href="https://www.facebook.com/pg/CLBLapTrinhTrenThietBiDiDong/posts/?ref=page_internal" target="_blank" > Mobile programming </a> là clb lập trình ứng dụng di động  (sử dụng các ngôn ngữ lập trình (Java, C#, …) để viết và phát triển
+             các phần mềm nhằm gia tăng tiện ích cho thiết bị di động, đặc biệt là di động sử dụng hệ điều hành. lập trình android Có thể kể 
+             đến một số ứng dụng di động phổ biến như game, chat, truy cập mạng xã hội trên điện thoại, từ điển Anh – Việt, đọc truyện, điều khiển di động bằng giọng nói, 
+             tổng hợp thông tin chứng khoán, giá vàng …) giúp cho sinh viên có thể học hỏi kiến thức qua các cuộc thi cũng như trau dồi kỹ năng lập trình ứng dụng. Qua đó,nó giúp bạn phát huy tiềm năng của mình(^_^)
+          </p> 
+         </div>  
+    </section>
+    <section class="banner">
+                     
+        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner"   >
+            <div class="carousel-item active"  class='zoom' id='zoom1'>
+              <img src="img/lttb(1).png" alt="lttb" >
+            </div>
+            <div class="carousel-item"   class='zoom' id='zoom2'>
+              <img src="img/lttb(2).png"  alt="lttb" >
+            </div>
+            <div class="carousel-item"  class='zoom' id='zoom3'>
+              <img src="img/lttb(3).png"   alt="lttb"  >
+            </div>
+             
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div>
+      </section>
+      <!--OU-IT COMMUNITY-->
+      <section  id="CY" class="khung">
+        <div data-aos="fade-up" class="tieude">
+         OU-IT COMMUNITY
+        </div>
+        <div data-aos="zoom-in" class="line"></div>
+         <div data-aos="fade-up">
+          <p class="vanban"> <a href="https://www.facebook.com/groups/ouitcommunity/" target="_blank" > Ou-it community </a> là nơi giúp cho sinh viên ngành 
+            IT học hỏi kinh nghiệm từ cựu sinh viên của trường,chia sẻ tri thức và giới thiệu việc làm. Với slogan:"Chia sẻ để phát triển".
+            Hãy tham gia để biết thêm nhiều kiến thức bổ ích nhé mọi người (*_*)
+            
+          </p> 
+         </div>  
+    </section>
+    <section class="banner">
+                     
+        <div  data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner"   >
+            <div class="carousel-item active"  class='zoom' id='zoom1'>
+              <img src="img/cy(1).png" alt="cy" >
+            </div>
+            <div class="carousel-item"   class='zoom' id='zoom2'>
+              <img src="img/cy(2).png"  alt="cy" >
+            </div>
+            <div class="carousel-item"  class='zoom' id='zoom3'>
+              <img src="img/cy(3).png"   alt="cy"  >
+            </div>
+             
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div>
+      </section>
+   
+          <footer >
+            
+            <div class="foote">
+              <div class="foter">
+                 <b> <i>&Colone; Trường Đại Học Mở Thành phố Hồ Chí Minh - nơi mở cửa tài năng tri thức &Colone; T & N</i></b>          
+                 </div>  
+             </div>
+        </footer>
+       <!--AOS JS-->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 
+       <script>
+         AOS.init({
+           easing: 'ease-out-back',
+           duration: 1000
+         });
+       </script>
+  </body>
+</html>
+       
